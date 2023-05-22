@@ -8,11 +8,11 @@ class mahasiswa3Controller extends Controller
 {
     
     public function index(){
-        $namakelompok="kelompok 6";
+        $mhs="kelompok 6";
         $title="straightface.com";
         $slug="straightface";
     
-return view('konten.mahasiswa',compact('namakelompok','title', 'slug',));
+return view('konten.mahasiswa',compact('mhs','title', 'slug',));
 
 
 
