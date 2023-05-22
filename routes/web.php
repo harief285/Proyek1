@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\mahasiswa3Controller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+Route::get('/mahasiswa ',[mahasiswa3Controller::class,'index']);
+
+route::get('/home', function (){
+
+    $title="websaya";
+    $namakelompok="kelompok";
+    $konten= "ini adalah websaya";
+    return view('konten.mahasiswa',compact('title', 'namakelompok', 'konten'));
+    
+    
+    
+    });
+    
