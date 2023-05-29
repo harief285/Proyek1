@@ -17,7 +17,7 @@ use App\Http\Controllers\mahasiswa3Controller;
 
 // Route::get('/mahasiswa ',[mahasiswa3Controller::class,'index']);
 
-route::get('/home/admin', function (){
+route::get('/admin', function (){
 
     $title="Admin";
     $slug="home";
