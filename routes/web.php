@@ -15,16 +15,12 @@ use App\Http\Controllers\mahasiswa3Controller;
 
 
 
-Route::get('/mahasiswa ',[mahasiswa3Controller::class,'index']);
+// Route::get('/mahasiswa ',[mahasiswa3Controller::class,'index']);
 
-route::get('/home', function (){
+route::get('/home/admin', function (){
 
-    $title="websaya";
-    $namakelompok="kelompok";
+    $title="Admin";
+    $slug="home";
     $konten= "ini adalah websaya";
-    return view('konten.mahasiswa',compact('title', 'namakelompok', 'konten'));
-    
-    
-    
-    });
-    
+    return view('konten.admin',compact('title', 'slug', 'konten'));
+});
