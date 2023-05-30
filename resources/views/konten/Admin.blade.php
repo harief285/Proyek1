@@ -48,8 +48,10 @@
                     <img src="images/img.jpg" alt="..." class="img-circle profile_img">
                 </div>
                 <div class="profile_info">
+
+
                     <span>Welcome,</span>
-                    <h2>John Doe</h2>
+                    <h2>straight face </h2>
                 </div>
                 </div>
                 <!-- /menu profile quick info -->
@@ -59,7 +61,7 @@
                 <!-- sidebar menu -->
                 <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                     <div class="menu_section">
-                        <h3>General</h3>
+                        <h3>straight face</h3>
                         <ul class="nav side-menu">
                         <li><a><i class="fa fa-home"></i> Home </a>
                         <li><a><i class="fa fa-shopping-bag"></i> Barang <span class="fa fa-chevron-down"></span></a>
@@ -196,7 +198,9 @@
             <!-- /top navigation -->
 
             <!-- page content -->
+
             <div class="right_col" role="main">
+                
             <!-- top tiles -->
             <!-- /top tiles -->
             </div>

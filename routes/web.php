@@ -24,3 +24,11 @@ route::get('/admin', function (){
     $konten= "ini adalah websaya";
     return view('konten.admin',compact('title', 'slug', 'konten'));
 });
+
+route::get('/user', function (){
+
+    $title="user";
+    $slug="home";
+    $konten= "ini adalah websaya";
+    return view('konten.user',compact('title', 'slug', 'konten'));
+});

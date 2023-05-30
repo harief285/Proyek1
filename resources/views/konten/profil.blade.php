@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('konten.main')
 @section('title',$title)
 @section('content')
 <h2>profil</h2>

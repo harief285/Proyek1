@@ -1,47 +1,26 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
-            <button class="button" class="navbar-toggle" data-bs-toggle="collapse" 
-            data-bs-target="#navbarNav" aria-controls="navbarNav"
-            aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">Toggle navigation</span>
-            
-        
-            </button>
-        
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-
-                <a class="nav-link {{ ($slug==="home") ? 'active':''}}"
-
-                arial-current="page" href"/ home ">Home</a>
-            
-                </li>
-
-                <li class="nav-item">
-
-
-<a class="nav-link {{ ($slug==="profil") ? ' active' :'' }} "
-href="/profile">Profil</a>
-</li>
-
-
-
-<li class="nav-item">
-
-<a class="nav-link {{ ($slug==="produk") ? ' active' :'' }} "
-href="/produk">Produk</a>
-<li class="nav-item">
-
-<a class="nav-link {{ ($slug==="contact") ? ' active' :'' }} "
-href="/contact">contact</a>
-
-
-
-</li>
-</u1>
-        </div>
-    </div>
-</nav>
+<!-- sidebar menu -->
+<div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                    <div class="menu_section">
+                    <h3>General</h3>
+                        <ul class="nav side-menu">
+                        <li><a><i class="fa fa-home"></i> Home </a>
+                        <li><a><i class="fa fa-shopping-bag"></i> Barang <span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu">
+                            <li><a href="form.html">Daftar Barang</a></li>
+                            <li><a href="form_advanced.html">Tambah Barang</a></li>
+                            <li><a href="form_validation.html">Edit Barang</a></li>
+                            <li><a href="form_wizards.html">Hapus Barang</a></li>
+                            </ul>
+                        </li>
+                        <li><a><i class="fa fa-address-book-o" aria-hidden="true"></i> Kontak <span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu">
+                            <li><a href="form.html">Daftar Kontak</a></li>
+                            <li><a href="form_advanced.html">Tambah Kontak</a></li>
+                            <li><a href="form_validation.html">Edit Kontak</a></li>
+                            <li><a href="form_wizards.html">Hapus Kontak</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /sidebar menu -->
