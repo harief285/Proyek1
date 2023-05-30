@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="images/favicon.ico" type="image/ico" />
 
-        <title>user Panel</title>
+        <title>Admin Panel</title>
 
         <!-- Bootstrap -->
         <link href="{{ asset('/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -145,7 +145,7 @@
                     </a>
                     <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item"  href="javascript:;"> Profile</a>
-                        <a class="dropdown-item"  href="javascript:;">latarbelakang
+                        <a class="dropdown-item"  href="javascript:;">
                             <span class="badge bg-red pull-right">50%</span>
                             <span>Settings</span>
                         </a>
@@ -165,7 +165,7 @@
                             <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
                             <span>
                             <span>John Smith</span>
-                            <span class="time">3 mins ago</span>
+                            <span class="time">5 mins ago</span>
                             </span>
                             <span class="message">
                             Film festivals used to be do-or-die moments for movie makers. They were where...
@@ -179,7 +179,7 @@
                             <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
                             <span>
                             <span>John Smith</span>
-                            <span class="time">3 mins ago</span>
+                            <span class="time">5 mins ago</span>
                             </span>
                             <span class="message">
                             Film festivals used to be do-or-die moments for movie makers. They were where...
@@ -286,7 +286,7 @@
 
         <!-- Custom Theme Scripts -->
         <script src="../../../build/js/custom.min.js"></script>
-   <script src="../../../build/js/custom.min.js"></script>
+    <script src="../../../build/js/custom.min.js"></script>
 
 
         
