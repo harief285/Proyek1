@@ -93,25 +93,27 @@
                         
                             </ul>
                         </li>
-                        </ul>
 
-                        </ul>
-                        <ii>
-                        </li>
-
-                        <li><a><i class="fa fa-archive" aria-hidden="true"></i> guide size<span class="fa fa-chevron-down"></span></a>
+                        <li><a><i class="fa fa-archive" aria-hidden="true"></i> guidesize <span class="fa fa-chevron-down"></span></a>
                             <ul class="nav child_menu">
-
                             <li><a href="form.html">size</a></li>
-                            
+                        
                         
                             </ul>
                         </li>
-                        </ul>
+
+            
+                    
+                        
+                    
+                    
+                    
+                
                     </div>
                 </div>
                 <!-- /sidebar menu -->
             
+
                 <!-- /menu footer buttons -->
                 <div class="sidebar-footer hidden-small">
                 <a data-toggle="tooltip" data-placement="top" title="Settings">
