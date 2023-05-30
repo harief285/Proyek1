@@ -32,3 +32,14 @@ route::get('/user', function (){
     $konten= "ini adalah websaya";
     return view('konten.user',compact('title', 'slug', 'konten'));
 });
+
+
+
+route::get('/latarbelakang ', function (){
+
+    $title="latarbelakang";
+    $slug="user.blade.php";
+    $konten= "ini adalah websaya";
+    return view('konten.latarbelakang',compact('latarbelakang', 'slug', 'konten'));
+});
+
