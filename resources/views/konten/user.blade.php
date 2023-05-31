@@ -111,9 +111,9 @@
 
             <!-- page content -->
 
-            <div class="right_col" role="main">
-                <h1>straight face</h1>
+            @include('konten.main') 
                 
+
             <!-- top tiles -->
             <!-- /top tiles -->
             </div>
