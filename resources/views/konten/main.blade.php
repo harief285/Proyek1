@@ -1,6 +1,10 @@
 
 <div class="right_col" role="main">
-    <h1>straight face</h1> 
+    <marquee>
+
+        <h1>straightface </h1>
+    </marquee>
+    
 
     <p>kelompok 6 </p>
     <ul>
