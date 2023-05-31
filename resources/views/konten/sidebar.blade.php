@@ -5,7 +5,7 @@
 
                         <li><a><i class="fa fa-user"></i> profile <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="latarbelakang">latar belakang</a></li>
+                            <li><a href="/latarbelakang">latar belakang</a></li>
 
                             <li><a href="form.html">visi dan misi</a></li>
                             </ul>

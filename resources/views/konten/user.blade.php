@@ -56,7 +56,9 @@
 
                 </div>
 
-                    @yield('konten.latarbelakang')
+                    @yield('konten')
+
+
 
 
                 </div>
