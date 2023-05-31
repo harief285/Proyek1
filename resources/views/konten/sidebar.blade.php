@@ -1,4 +1,3 @@
- <!-- sidebar menu -->
 <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                     <div class="menu_section">
                         <h3>straight face</h3>
@@ -6,7 +5,7 @@
 
                         <li><a><i class="fa fa-user"></i> profile <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="form.html">latar belakang</a></li>
+                            <li><a href="latarbelakang">latar belakang</a></li>
 
                             <li><a href="form.html">visi dan misi</a></li>
                             </ul>
@@ -27,21 +26,29 @@
                         
                             </ul>
                         </li>
-                        </ul>
 
-                        </ul>
-                        <ii>
-                        </li>
-
-                        <li><a><i class="fa fa-archive" aria-hidden="true"></i> guide size<span class="fa fa-chevron-down"></span></a>
+                        <li><a><i class="fa fa-archive" aria-hidden="true"></i> guidesize <span class="fa fa-chevron-down"></span></a>
                             <ul class="nav child_menu">
-
                             <li><a href="form.html">size</a></li>
-                            
+                        
                         
                             </ul>
                         </li>
-                        </ul>
+
+                        <li><a><i class="fa fa-sign-out" aria-hidden="true"></i> logout <span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu">
+                            <li><a href="form.html">keluar</a></li>
+                        
+                        
+                            </ul>
+                        </li>
+                    
+                        
+                    
+                    
+                    
+                
                     </div>
                 </div>
                 <!-- /sidebar menu -->
+

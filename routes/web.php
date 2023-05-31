@@ -33,5 +33,18 @@ route::get('/user', function (){
     return view('konten.user',compact('title', 'slug', 'konten'));
 });
 
+route::get('/latarbelakang', function (){
+    $title="user";
+    $slug="latarbelakang";
+    $konten= "ini adalah websaya";
+    return view('konten.latarbelakang',compact('title', 'slug', 'konten'));
+});
 
 
+route::get('/home', function (){
+
+    $title="home";
+    $slug="home";
+    $konten= "ini adalah websaya";
+    return view('konten.home',compact('title', 'slug', 'konten'));
+});
