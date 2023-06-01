@@ -5,23 +5,23 @@
 
                         <li><a><i class="fa fa-user"></i> profile <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="/latarbelakang">latar belakang</a></li>
+                            <li><a href="/latarbelakang">latarbelakang</a></li>
 
-                            <li><a href="form.html">visi dan misi</a></li>
+                            <li><a href="/visimisi">visimisi</a></li>
                             </ul>
 
 
                         <li><a><i class="fa fa-shopping-bag"></i> category <span class="fa fa-chevron-down"></span></a>
                             <ul class="nav child_menu">
-                            <li><a href="form.html">celana</a></li>
-                            <li><a href="form.html">kaos</a></li>
+                            <li><a href="/celana">celana</a></li>
+                            <li><a href="/kaos">kaos</a></li>
 
                             </ul>
                         </li>
                         <li><a><i class="fa fa-address-book-o" aria-hidden="true"></i> Kontak <span class="fa fa-chevron-down"></span></a>
                             <ul class="nav child_menu">
-                            <li><a href="form.html">WhatsApp</a></li>
-                            <li><a href="form.html">Instragram</a></li>
+                            <li><a href="whatsaap">WhatsApp</a></li>
+                            <li><a href="instragram">Instragram</a></li>
 
                         
                             </ul>
@@ -29,7 +29,7 @@
 
                         <li><a><i class="fa fa-archive" aria-hidden="true"></i> guidesize <span class="fa fa-chevron-down"></span></a>
                             <ul class="nav child_menu">
-                            <li><a href="form.html">size</a></li>
+                            <li><a href="size">size</a></li>
                         
                         
                             </ul>
@@ -37,7 +37,7 @@
 
                         <li><a><i class="fa fa-sign-out" aria-hidden="true"></i> logout <span class="fa fa-chevron-down"></span></a>
                             <ul class="nav child_menu">
-                            <li><a href="form.html">keluar</a></li>
+                            <li><a href="/keluar">keluar</a></li>
                         
                         
                             </ul>

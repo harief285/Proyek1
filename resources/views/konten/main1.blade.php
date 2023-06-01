@@ -1,10 +1,10 @@
 
-<div class="right_col" role="main">
+<div class="right_col" role="home">
     <marquee>
 
         <h1>straightface </h1>
     </marquee>
-    
+
 
     <p>kelompok 6 </p>
     <ul>
@@ -16,6 +16,8 @@
         </li>
 
         <li>
+
+
             <p>muhammd rayhan </p>
         </li>
         <li>
@@ -24,3 +26,17 @@
 
 
     </ul>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+        

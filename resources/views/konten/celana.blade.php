@@ -1,13 +1,20 @@
-@include('konten.user2')
 
-@extends('konten.main2')
+@include('konten.user4')
+
+@extends('konten.main4')
+
+
+@extends('konten.main4')
+
+
+
 
 @section('content')
-<h2>profil</h2>
 
-<h2></h2>
 
-<h1>straightface</h1>
+
+
+
 
 
 
@@ -18,4 +25,3 @@
 @endforeach --}}
 
 @endsection 
-
