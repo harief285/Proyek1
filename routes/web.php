@@ -114,17 +114,21 @@ route::get('/logut', function (){
     $konten= "ini adalah websaya";
     return view('konten.logout',compact('title', 'slug', 'konten'));
 });
-
-
-<<<<<<< HEAD
 route::get('/login', function (){
 
     $title="user";
     $slug="logout";
     $konten= "ini adalah websaya";
-    return view('konten.login',compact('title', 'slug', 'konten'));
+    return view('konten.logout',compact('title', 'slug', 'konten'));
+});
+route::get('/login', function (){
+
+    $title="user";
+    $slug="logout";
+    $konten= "ini adalah websaya";
+    return view('konten.logint',compact('title', 'slug', 'konten'));
 });
 
-=======
+
+
 Route::get('/admin',[AdminController::class,'index']);
->>>>>>> 732ac8b125a4edf9cbb99d450bc09aeb04b1a118
