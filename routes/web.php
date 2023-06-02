@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\mahasiswa3Controller;
+use App\Http\Controllers\AdminController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,13 +18,13 @@ use App\Http\Controllers\mahasiswa3Controller;
 
 // Route::get('/mahasiswa ',[mahasiswa3Controller::class,'index']);
 
-route::get('/admin', function (){
+// route::get('/admin', function (){
 
-    $title="Admin";
-    $slug="home";
-    $konten= "ini adalah websaya";
-    return view('konten.admin',compact('title', 'slug', 'konten'));
-});
+//     $title="Admin";
+//     $slug="home";
+//     $konten= "ini adalah websaya";
+//     return view('konten.admin',compact('title', 'slug', 'konten'));
+// });
 
 route::get('/user', function (){
 
@@ -115,6 +116,7 @@ route::get('/logut', function (){
 });
 
 
+<<<<<<< HEAD
 route::get('/login', function (){
 
     $title="user";
@@ -123,3 +125,6 @@ route::get('/login', function (){
     return view('konten.login',compact('title', 'slug', 'konten'));
 });
 
+=======
+Route::get('/admin',[AdminController::class,'index']);
+>>>>>>> 732ac8b125a4edf9cbb99d450bc09aeb04b1a118
