@@ -104,27 +104,60 @@ route::get('/keluar', function (){
     $konten= "ini adalah websaya";
     return view('konten.keluar',compact('title', 'slug', 'konten'));
 });
+route::get('/logout', function (){
+
+    $title="keluar";
+    $slug="login";
+    $konten= "ini adalah websaya";
+    return view('konten.logout',compact('title', 'slug', 'konten'));
+});
 
 
+route::get('/logout', function (){
 
-route::get('/logut', function (){
+    $title="user";
+    $slug="logout";
+    $konten= "ini adalah websaya";
+    return view('konten.logout',compact('title', 'slug', 'konten'));
+});
+route::get('/logout', function (){
 
     $title="user";
     $slug="login";
     $konten= "ini adalah websaya";
     return view('konten.logout',compact('title', 'slug', 'konten'));
 });
-route::get('/login', function (){
 
-    $title="user";
-    $slug="logout";
+
+route::get('/logout', function (){
+
+    $title="keluar";
+    $slug="login";
     $konten= "ini adalah websaya";
-    return view('konten.login',compact('title', 'slug', 'konten'));
+    return view('konten.logout',compact('title', 'slug', 'konten'));
 });
 route::get('/login', function (){
 
     $title="login";
     $slug="user";
+    $konten= "ini adalah websaya";
+    return view('konten.login',compact('title', 'slug', 'konten'));
+});
+
+route::get('/login', function (){
+
+    $title="user";
+    $slug="login";
+    $konten= "ini adalah websaya";
+    return view('konten.login',compact('title', 'slug', 'konten'));
+});
+
+
+
+route::get('/login', function (){
+
+    $title="login";
+    $slug="latarbelakang";
     $konten= "ini adalah websaya";
     return view('konten.login',compact('title', 'slug', 'konten'));
 });
