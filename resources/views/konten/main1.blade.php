@@ -1,4 +1,3 @@
-
 <div class="right_col" role="home">
     <marquee>
 
