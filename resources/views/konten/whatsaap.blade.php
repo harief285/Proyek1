@@ -16,6 +16,7 @@
 
 
 
+
 {{-- <ol>
 @foreach ($datalatarbelakang as $item)
     <li> nama {{ $item['nama'] }} | | nama: {{ $item['nama'] }} </li>
