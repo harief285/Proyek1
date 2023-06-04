@@ -29,6 +29,10 @@
 
         <!-- Custom Theme Style -->
         <link href="{{ asset('build/css/custom.min.css') }}" rel="stylesheet">
+
+    
+
+        
     </head>
 
     <body class="nav-md">
@@ -117,6 +121,8 @@
             @include('konten.main2')
 
 
+    
+
             
 
         
@@ -178,8 +184,11 @@
 
             <!-- footer content -->
             <footer>
-            <div class="pull-right" >
-                Proyek 1 Kelompok 6 D4 RPL 2B <a href="https://colorlib.com"></a>
+            <div class="pull-left" >
+        
+            latar belakang
+            
+            <a href="https://colorlib.com"></a>
             </div>
             <div class="clearfix"></div>
             </footer>

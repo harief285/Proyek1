@@ -3,12 +3,6 @@
 @extends('konten.main2')
 
 @section('content')
-<h2>profil</h2>
-
-<h2></h2>
-
-<h1>straightface</h1>
-
 
 
 
