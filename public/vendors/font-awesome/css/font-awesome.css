@@ -2316,6 +2316,25 @@
 .fa-meetup:before {
   content: "\f2e0";
 }
+.fa-strightface{
+  position: relative;
+  width: 44px;
+  height: 42px;
+  left: auto;
+  top: auto;
+
+  background: url(straightface.ico);
+}
+
+/* .fa-strightface:before{
+  position: auto;
+  width: 34.22px;
+  height: 34.64px;
+  left: auto;
+  top: auto;
+
+} */
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2336,12 +2355,14 @@
   clip: auto;
 }
 
-.fa-strightface{
-  position: auto;
-  width: 32px;
-  height: 30px;
-  left: auto;
-  top: auto;
 
-  background: url(logo_straightface1.ico);
-}
+/* @media (min-width: 576px) {
+  .fa-strightface-sm-left {
+    right: auto;
+    left: 0;
+  }
+  .fa-strightface-sm-right {
+    right: 0;
+    left: auto;
+  }
+} */

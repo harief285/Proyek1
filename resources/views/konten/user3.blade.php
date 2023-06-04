@@ -177,12 +177,46 @@
 
 
             <!-- footer content -->
-            <footer>
-            <div class="pull-right" >
-                Proyek 1 Kelompok 6 D4 RPL 2B <a href="https://colorlib.com"></a>
-            </div>
-            <div class="clearfix"></div>
-            </footer>
+
+
+            
+<div class="center-left" >
+
+
+
+
+
+    <ul>
+
+        <li>
+
+        <h2 font="red" style="text-align:center"> 1. meningkatkan daya saing </h2>
+
+
+        </li>
+
+        <li>
+
+        
+            <h2 style="text-align:center"> 
+                2. kualitas sesuai dengan harga</h2>
+        </li>
+        <li>
+            <h2 style="text-align:center">  3. makin berkembang untuk memajukan brand lokal</h2>
+        </li>
+
+
+    </ul>
+
+
+    
+<a href="https://colorlib.com"></a>
+</div>
+<div class="clearfix"></div>
+</footer>
+
+
+            
             <!-- /footer content -->
         </div>
         </div>

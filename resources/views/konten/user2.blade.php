@@ -29,6 +29,10 @@
 
         <!-- Custom Theme Style -->
         <link href="{{ asset('build/css/custom.min.css') }}" rel="stylesheet">
+
+    
+
+        
     </head>
 
     <body class="nav-md">
@@ -117,6 +121,8 @@
             @include('konten.main2')
 
 
+    
+
             
 
         
@@ -178,8 +184,35 @@
 
             <!-- footer content -->
             <footer>
-            <div class="pull-right" >
-                Proyek 1 Kelompok 6 D4 RPL 2B <a href="https://colorlib.com"></a>
+            <div class="center-left" >
+        
+            <h1>latar belakang</h1>
+            
+
+            <p>
+
+
+
+                Straightface Menswear adalah brand asal Cirebon yang memproduksi dan menjual pakaian pria,
+                seperti celana chino, denim, cargo, short chino, kaos, dll. 
+                Straightface menswear berdiri sejak tahun 2014, sesuai namanya straightface sendiri berarti "wajah yang datar" 
+                memiliki makna tentang kepercayaan pada diri yang tinggi, tidak terpengaruh pada ucapan orang lain,
+                serta memegang teguh prinsip. Dari hal tersebut straightface menswear berharap setiap pemakai produk-produknya tidak hanya sekedar memakai pakaian, 
+                namun lebih percaya diri dalam melewati hari-harinya. Adalah Yanick Iglesias yang mengawali terbentuknya straightface, saat berkuliah di Bandung, awalnya hanya sebatas ingin mengurangi beban orang tua 
+                hingga sampai sekarang bisa memberikan manfaat untuk sekitar.
+
+	Saat ini warehouse straightface terletak di Kota Tegal, 
+    sudah tersedia di berbagai macam marketplace seperti shopee, tokopedia, lazada, dan yang terbaru tiktokshop. 
+    Selain itu tersedia juga di toko-toko mitra dari straightface menswear yang tersebar di wilayah Jawa Tengah, Lampung, dan Cirebon. 
+    Kendati demikian, sampai saat ini straightface menswear masih belum memiliki websitenya sendiri, 
+    untuk itu kelompok kami bekerja sama dengan straightface untuk bisa membuatkan website 
+    agar meningkatkan penyebaran informasi secara digital.
+
+
+            </p>
+
+            
+            <a href="https://colorlib.com"></a>
             </div>
             <div class="clearfix"></div>
             </footer>
