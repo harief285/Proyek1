@@ -7,7 +7,7 @@
 
 <h2></h2>
 
-<h1>straightface</h1>
+<h1></h1>
 
 
 
