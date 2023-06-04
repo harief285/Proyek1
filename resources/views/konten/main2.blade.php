@@ -1,7 +1,10 @@
 
+
 <!DOCTYPE html>
 
+
 <html>
+
 
 <head>
 
@@ -15,18 +18,20 @@
 
         
         {
+            
             background-color: white;
             color: crimson;
             font-family: sans-serif;
             text-align: center;
-            width: 25%;
+            width:45%;
             margin:auto;
-            padding: 20px;
+            padding: 35px;
         }
 
         body
 
         {
+            
 
             background-image: url('gambar.jpeg');
             background-repeat: no-repeat;
