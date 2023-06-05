@@ -20,7 +20,7 @@
             <p>muhammd rayhan </p>
         </li>
         <li>
-            <p>raudatul musyarofah isjati</p>
+            <p>raudatul musyarofah maula isjati</p>
         </li>
 
 
