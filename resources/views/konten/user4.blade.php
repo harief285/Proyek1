@@ -178,8 +178,34 @@
 
             <!-- footer content -->
             <footer>
-            <div class="pull-right" >
-                Proyek 1 Kelompok 6 D4 RPL 2B <a href="https://colorlib.com"></a>
+            <div class="center-left" >
+                
+                
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gambar produk</title>
+</head>
+<body>
+<h1>gambar produk</h1>
+<p>Berikut ini adalah gambar produk:</p>
+<p>
+    <img src="background7.jpeg" width="200" height="200" alt="main4"/>
+    
+</p>
+<p>celana cream</h1>
+</body>
+</html>
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://colorlib.com"></a>
             </div>
             <div class="clearfix"></div>
             </footer>
