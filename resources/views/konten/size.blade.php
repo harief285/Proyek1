@@ -5,7 +5,7 @@
 
 @extends('konten.main8')
 
-
+<p>klklklkl</p>
 
 
 @section('content')

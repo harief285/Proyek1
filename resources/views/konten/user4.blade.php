@@ -126,66 +126,36 @@
             <!-- /top tiles -->
 
             </div>
-            
-                
-
-
-            
-
-
-        
-
-        
-
-
         
 
             <!-- /page content -->
+        <!-- footer content -->
+        <footer>
+            <div class="center-left" >
+
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-4">
+    <title>gambar celana</title>
+</head>
+<body>
+<h1>gambar celana</h1>
+<p>Berikut ini adalah gambar size:</p>
+<p>
+    <img src="celana2.jpeg" width="600" height="700" alt="celana"/>
     
-
-
-
-
-
-
-
-
-
-            
-                
-
-
-            
-
-
-        
-
-        
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- footer content -->
-            <footer>
-            <div class="pull-right" >
-                Proyek 1 Kelompok 6 D4 RPL 2B <a href="https://colorlib.com"></a>
+</p>
+</body>
+</html>
+                <a href="https://colorlib.com"></a>
             </div>
             <div class="clearfix"></div>
             </footer>
             <!-- /footer content -->
         </div>
         </div>
+            
 
         <!-- jQuery -->
         <script src="../../../vendors/jquery/dist/jquery.min.js"></script>
