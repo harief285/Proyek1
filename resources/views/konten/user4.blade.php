@@ -143,44 +143,9 @@
 <h1>gambar celana</h1>
 <p>Berikut ini adalah gambar size:</p>
 <p>
-    <img src="celana2.jpeg" width="600" height="700" alt="celana"/>
+    <img src="background7.png" width="600" height="700" alt="celana"/>
     
-<<<<<<< HEAD
-</p>
-</body>
-</html>
-=======
-
-            <!-- footer content -->
-            <footer>
-            <div class="center-left" >
-                
-                
-                <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>gambar produk</title>
-</head>
-<body>
-<h1>gambar produk</h1>
-<p>Berikut ini adalah gambar produk:</p>
-<p>
-    <img src="background7.jpeg" width="200" height="200" alt="main4"/>
-    
-</p>
-<p>celana cream</h1>
-</body>
-</html>
-                
-                
-                
-                
-                
-                
-                
-                
->>>>>>> 7e1fe07cf47774f376093d8d11929d63800ddbb4
+<
                 <a href="https://colorlib.com"></a>
             </div>
             <div class="clearfix"></div>
