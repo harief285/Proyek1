@@ -4,6 +4,8 @@
 <a href="{{asset('celana4.jpg')}}">
  <a href="{{asset('celana5.jpg')}}">
  <a href="{{asset('celana6.jpg')}}">
+    <a href="{{asset('celana7.jpg')}}">
+
  
 
 

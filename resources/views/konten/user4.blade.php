@@ -260,6 +260,26 @@
             <!-- /footer content -->
         </div>
         </div>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-4">
+    <title>gambar celana</title>
+</head>
+<body>
+<h1>Basalt Fatigue in khakis</h1>
+<p>:</p>
+<p>
+    <img src="celana7.jpg" width="600" height="700" alt="celana"/>
+    
+<
+                <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
 
 
         <!-- jQuery -->
