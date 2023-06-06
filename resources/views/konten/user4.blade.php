@@ -154,6 +154,69 @@
         </div>
         </div>
             
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-4">
+    <title>gambar celana</title>
+</head>
+<body>
+<h1>gambar celana</h1>
+<p>charcoal-camel-cream:</p>
+<p>
+    <img src="celana2.jpg" width="600" height="700" alt="celana"/>
+    
+<
+                <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-4">
+    <title>gambar celana</title>
+</head>
+<body>
+<h1>gambar celana</h1>
+<p>charcoal-camel-cream:</p>
+<p>
+    <img src="celana3.jpg" width="600" height="700" alt="celana"/>
+    
+<
+                <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-4">
+    <title>gambar celana</title>
+</head>
+<body>
+<h1>gambar celana</h1>
+<p>charcoal-camel-cream:</p>
+<p>
+    <img src="celana4.jpg" width="600" height="700" alt="celana"/>
+    
+<
+                <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+
 
         <!-- jQuery -->
         <script src="../../../vendors/jquery/dist/jquery.min.js"></script>
