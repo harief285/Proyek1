@@ -13,7 +13,7 @@
             <div class="col-md-12 col-sm-12">
                 <div class="x_panel">
                     <div class="x_content">
-                        <form class="" action="/admin/savebarang" method="POST" enctype="multipart/form-data">
+                        <form class="" action="{{route('admin-databarubarang')}}" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="field item form-group">
                                 <label class="col-form-label col-md-3 col-sm-3  label-align">Kode Barang<span class="required">*</span></label>

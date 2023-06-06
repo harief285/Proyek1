@@ -11,7 +11,7 @@
             <th>Ukuran</th>
             <th>Deskripsi</th>
             <th>Foto</th>
-            <th><a href="admin/inputbarang" class="btn btn-sm btn-primary"><span class="fa fa-plus-square"></span></a></th>
+            <th><a href="{{ url('/admin/inputbarang') }}" class="btn btn-sm btn-primary"><span class="fa fa-plus-square"></span></a></th>
         </tr>
         <?php $no=1; ?>
         @foreach($barang as $item)
@@ -28,9 +28,9 @@
                 <img src="{{ asset('fotobarang/'.$item->alamat_gambar) }}" alt="" style="width: 40px;">
             </td>
             <td>
-                <a href="{{ url('admin/editbarang',$item->id_barang) }}"
+                <a href="{{ route('admin-editbarang', ['id_barang' => $item->id_barang]) }}"
                 class="btn btn-sm btn-warning"><span class="glyphicon glyphicon-pencil"></span></a>
-                <a href="{{ url('admin/deletebarang',$item->id_barang) }}"
+                <a href="{{ route('deletebarang', ['id_barang' => $item->id_barang]) }}"
                 class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-trash"></span></a>
             </td>
         </tr>

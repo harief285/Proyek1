@@ -67,7 +67,7 @@
                                 <label class="col-form-label col-md-3 col-sm-3  label-align">Gambar<span class="required">*</span></label>
                                 <div class="col-md-6 col-sm-6">
                                     <input class="form-control" name="alamat_gambar" type="file" />
-                                    <img src="{{ asset('fotobarang/'.$barang->alamat_gambar)}}" widht="70px" alt="img"></div>
+                                    <img src="{{ asset('fotobarang/'.$barang->alamat_gambar)}}" style="width:70px;height:70px;" alt="img"></div>
                                     
                             </div>
                             <div class="ln_solid">

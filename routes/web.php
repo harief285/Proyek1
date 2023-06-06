@@ -165,8 +165,9 @@ route::get('/login', function (){
 
 
 Route::get('/admin',[AdminController::class,'index'])->name('admin');
-Route::get('/admin/inputbarang',[AdminController::class,'inputbarang']);
-Route::POST('/admin/savebarang',[AdminController::class,'savebarang']);
-Route::get('/admin/editbarang/{id_barang}',[AdminController::class,'editbarang']);
-Route::put('/admin/updatebarang/{id_barang}',[AdminController::class,'updatebarang']);
+Route::get('/admin/tampilbarang',[AdminController::class,'index'])->name('admin-tampilbarang');
+Route::get('/admin/inputbarang',[AdminController::class,'inputbarang'])->name('admin-tambahbarang');
+Route::POST('/admin/savebarang',[AdminController::class,'savebarang'])->name('admin-databarubarang');
+Route::get('/admin/editbarang/{id_barang}',[AdminController::class,'editbarang'])->name('admin-editbarang');
+Route::put('/admin/updatebarang/{id_barang}',[AdminController::class,'updatebarang'])->name('admin-updatebarang');
 Route::get('/admin/deletebarang/{id_barang}',[AdminController::class,'deletebarang'])->name('deletebarang');
