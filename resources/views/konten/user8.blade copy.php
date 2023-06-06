@@ -114,7 +114,7 @@
             <!-- page content -->
 
 
-            @include('konten.main5')
+            @include('konten.main8')
 
 
             
@@ -178,22 +178,24 @@
 
             <!-- footer content -->
             <footer>
-            <!DOCTYPE html>
-    <html lang="en">
+            <div class="center-left" >
+
+                <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>gambar baju</title>
+    <title>gambar size</title>
 </head>
 <body>
-<h1>gambar baju</h1>
-<p>Berikut ini adalah gambar baju:</p>
+<h1>gambar size</h1>
+<p>Berikut ini adalah gambar size:</p>
 <p>
-    <img src="background8.png" width="600" height="700" alt="size"/>
+    <img src="background6.jpeg" width="600" height="700" alt="size"/>
     
 </p>
 </body>
 </html>
-            <a href="https://colorlib.com"></a>
+                <a href="https://celana2.com"></a>
             </div>
             <div class="clearfix"></div>
             </footer>
