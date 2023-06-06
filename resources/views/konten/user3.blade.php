@@ -190,7 +190,7 @@
 
         <li>
 
-        <h2 font="red" style="text-align:center"> 1. meningkatkan daya saing </h2>
+        <h2 font="red" style="text-align:center"> 1. Meningkatkan daya saing </h2>
 
 
         </li>
@@ -199,10 +199,10 @@
 
         
             <h2 style="text-align:center"> 
-                2. kualitas sesuai dengan harga</h2>
+                2. Kualitas sesuai dengan harga</h2>
         </li>
         <li>
-            <h2 style="text-align:center">  3. makin berkembang untuk memajukan brand lokal</h2>
+            <h2 style="text-align:center">  3. Makin berkembang untuk memajukan brand lokal</h2>
         </li>
 
 

@@ -33,7 +33,7 @@
         {
             
 
-            background-image: url('gambar.jpeg');
+            background-image: url('biru..jpg');
             background-repeat: no-repeat;
             background-size: cover;
     
