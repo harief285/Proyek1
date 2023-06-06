@@ -9,8 +9,10 @@ use Illuminate\Database\Eloquent\Model;
 class tbl_barang extends Model
 {
     use HasFactory;
-
+    public $timestamps = false;
     protected $table = 'tbl_barang';
+    protected $primaryKey = 'id_barang';
+    public $incrementing = false;
 
     protected $fillable=[
         'id_barang',
@@ -25,6 +27,6 @@ class tbl_barang extends Model
     ];
 
     public function kategori(){
-        return $this->belongsTo(tbl_kategori::class, 'id_kategori' , 'id_kategori');
+        return $this->belongsTo(tbl_kategori::class, 'id_kategori', 'id_kategori');
     }
 }
