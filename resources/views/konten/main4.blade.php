@@ -4,7 +4,7 @@
     <h1>category<h1>
 
         </h1>kaos</h1>
-        <a href="{{asset('background8.png')}}">
+        <a href="{{asset('background7.jpeg')}}">
 
 
 

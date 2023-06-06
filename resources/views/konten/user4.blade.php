@@ -143,7 +143,7 @@
 <h1>gambar celana</h1>
 <p>Berikut ini adalah gambar celana:</p>
 <p>
-    <img src="background8.png" width="600" height="700" alt="celana"/>
+    <img src="background7.jpeg" width="600" height="700" alt="celana"/>
     
 <
                 <a href="https://colorlib.com"></a>
