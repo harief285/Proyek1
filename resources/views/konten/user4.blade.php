@@ -151,39 +151,6 @@
 </html>
 =======
 
-
-
-
-
-
-
-
-
-            
-                
-
-
-            
-
-
-        
-
-        
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
             <!-- footer content -->
             <footer>
             <div class="center-left" >
