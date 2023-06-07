@@ -11,7 +11,7 @@
             <th>Ukuran</th>
             <th>Deskripsi</th>
             <th>Foto</th>
-            <th><a href="{{ url('/admin/inputbarang') }}" class="btn btn-sm btn-primary"><span class="fa fa-plus-square"></span></a></th>
+            <th><a href="{{ route('admin-tambahbarang') }}" class="btn btn-sm btn-primary"><span class="fa fa-plus-square"></span></a></th>
         </tr>
         <?php $no=1; ?>
         @foreach($barang as $item)

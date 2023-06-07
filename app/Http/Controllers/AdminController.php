@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\tbl_barang;
 use App\Models\tbl_kategori;
+use App\Models\tbl_contact;
 use Illuminate\Support\Facades\File;
 
 
@@ -108,5 +109,47 @@ class AdminController extends Controller
 
         return redirect()->route('admin')->with('success', 'Data barang berhasil dihapus');
     }
+
+    public function contact(){
+        $kontak=tbl_contact::all();
+
+        return view('admin.kontak',compact('kontak'));
+    }
+
+    public function inputkontak(){
+        return view('admin.inputkontak');
+    }
+
+    public function deletekontak($no_urut)
+    {
+        $kontak = tbl_contact::find($no_urut);
+
+        if (!$kontak) {
+            return redirect()->back()->with('error', 'Data barang tidak ditemukan');
+        }
+
+        $kontak->delete();
+
+        return redirect()->route('kontak')->with('success', 'Data kontak berhasil dihapus');
+    }
+
+    public function savekontak(Request $request)
+{
+    $request->validate([
+        'no_urut' => 'required|unique:tbl_contact,no_urut',
+        'nama' => 'required',
+        'kontak' => 'required',
+        'keterangan' => 'required',
+    ]);
+
+    tbl_contact::create([
+        'no_urut' => $request->no_urut,
+        'nama' => $request->nama,
+        'kontak' => $request->kontak,
+        'keterangan' => $request->keterangan,
+    ]);
+
+    return redirect()->route('kontak')->with('success', 'Data berhasil ditambahkan');
+}
 
 }
