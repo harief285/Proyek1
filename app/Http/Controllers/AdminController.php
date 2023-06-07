@@ -133,23 +133,22 @@ class AdminController extends Controller
         return redirect()->route('kontak')->with('success', 'Data kontak berhasil dihapus');
     }
 
-    public function savekontak(Request $request)
-{
-    $request->validate([
-        'no_urut' => 'required|unique:tbl_contact,no_urut',
-        'nama' => 'required',
-        'kontak' => 'required',
-        'keterangan' => 'required',
-    ]);
+    public function savekontak(Request $request){
+        $request->validate([
+            'no_urut' => 'required',
+            'nama' => 'required',
+            'kontak' => 'required',
+            'keterangan' => 'required',
+        ]);
+    
+        tbl_contact::create([
+            'no_urut' => $request->input('no_urut'),
+            'nama' => $request->input('nama'),
+            'kontak' => $request->input('kontak'),
+            'keterangan' => $request->input('keterangan'),
+        ]);
 
-    tbl_contact::create([
-        'no_urut' => $request->no_urut,
-        'nama' => $request->nama,
-        'kontak' => $request->kontak,
-        'keterangan' => $request->keterangan,
-    ]);
-
-    return redirect()->route('kontak')->with('success', 'Data berhasil ditambahkan');
+        return redirect()->route('kontak')->with('success', 'Data berhasil ditambahkan');
 }
 
 }

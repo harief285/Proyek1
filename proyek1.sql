@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 02 Jun 2023 pada 13.28
+-- Waktu pembuatan: 07 Jun 2023 pada 17.07
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.1.17
 
@@ -93,13 +93,13 @@ CREATE TABLE `personal_access_tokens` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tbl_barangs`
+-- Struktur dari tabel `tbl_barang`
 --
 
-CREATE TABLE `tbl_barangs` (
+CREATE TABLE `tbl_barang` (
   `id_barang` varchar(10) NOT NULL,
   `id_user` varchar(15) NOT NULL,
-  `nama_barang` varchar(20) NOT NULL,
+  `nama_barang` varchar(100) NOT NULL,
   `harga_barang` varchar(25) NOT NULL,
   `jumlah_barang` int(11) NOT NULL,
   `id_kategori` varchar(10) NOT NULL,
@@ -108,12 +108,25 @@ CREATE TABLE `tbl_barangs` (
   `alamat_gambar` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
+-- --------------------------------------------------------
+
 --
--- Dumping data untuk tabel `tbl_barangs`
+-- Struktur dari tabel `tbl_contact`
 --
 
-INSERT INTO `tbl_barangs` (`id_barang`, `id_user`, `nama_barang`, `harga_barang`, `jumlah_barang`, `id_kategori`, `ukuran`, `deskripsi`, `alamat_gambar`) VALUES
-('B001', 'admin', 'Slimfit', '1500000', 13, '2', 'l', 'bahan tebal jahitan rapih', '....');
+CREATE TABLE `tbl_contact` (
+  `no_urut` int(11) NOT NULL,
+  `nama` varchar(30) NOT NULL,
+  `kontak` varchar(30) NOT NULL,
+  `keterangan` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data untuk tabel `tbl_contact`
+--
+
+INSERT INTO `tbl_contact` (`no_urut`, `nama`, `kontak`, `keterangan`) VALUES
+(1, 'Rayhan', '089601955650', 'Whatsapp');
 
 -- --------------------------------------------------------
 
@@ -168,19 +181,6 @@ INSERT INTO `tbl_user` (`id_user`, `password`, `jabatan`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_contact`
---
-
-CREATE TABLE `tb_contact` (
-  `no_urut` int(11) NOT NULL,
-  `nama` varchar(30) NOT NULL,
-  `kontak` varchar(30) NOT NULL,
-  `keterangan` varchar(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
--- --------------------------------------------------------
-
---
 -- Struktur dari tabel `users`
 --
 
@@ -227,12 +227,18 @@ ALTER TABLE `personal_access_tokens`
   ADD KEY `personal_access_tokens_tokenable_type_tokenable_id_index` (`tokenable_type`,`tokenable_id`);
 
 --
--- Indeks untuk tabel `tbl_barangs`
+-- Indeks untuk tabel `tbl_barang`
 --
-ALTER TABLE `tbl_barangs`
+ALTER TABLE `tbl_barang`
   ADD PRIMARY KEY (`id_barang`),
   ADD KEY `id_user` (`id_user`),
   ADD KEY `id_kategori` (`id_kategori`);
+
+--
+-- Indeks untuk tabel `tbl_contact`
+--
+ALTER TABLE `tbl_contact`
+  ADD PRIMARY KEY (`no_urut`);
 
 --
 -- Indeks untuk tabel `tbl_kategori`
@@ -245,12 +251,6 @@ ALTER TABLE `tbl_kategori`
 --
 ALTER TABLE `tbl_user`
   ADD PRIMARY KEY (`id_user`);
-
---
--- Indeks untuk tabel `tb_contact`
---
-ALTER TABLE `tb_contact`
-  ADD PRIMARY KEY (`no_urut`);
 
 --
 -- Indeks untuk tabel `users`
@@ -282,10 +282,10 @@ ALTER TABLE `personal_access_tokens`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT untuk tabel `tb_contact`
+-- AUTO_INCREMENT untuk tabel `tbl_contact`
 --
-ALTER TABLE `tb_contact`
-  MODIFY `no_urut` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `tbl_contact`
+  MODIFY `no_urut` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`
@@ -298,11 +298,11 @@ ALTER TABLE `users`
 --
 
 --
--- Ketidakleluasaan untuk tabel `tbl_barangs`
+-- Ketidakleluasaan untuk tabel `tbl_barang`
 --
-ALTER TABLE `tbl_barangs`
-  ADD CONSTRAINT `tbl_barangs_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `tbl_user` (`id_user`),
-  ADD CONSTRAINT `tbl_barangs_ibfk_2` FOREIGN KEY (`id_kategori`) REFERENCES `tbl_kategori` (`id_kategori`);
+ALTER TABLE `tbl_barang`
+  ADD CONSTRAINT `tbl_barang_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `tbl_user` (`id_user`),
+  ADD CONSTRAINT `tbl_barang_ibfk_2` FOREIGN KEY (`id_kategori`) REFERENCES `tbl_kategori` (`id_kategori`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
