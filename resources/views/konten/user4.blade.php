@@ -182,7 +182,7 @@
                 
                 
                 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
     <meta charset="UTF-8">
     <title>gambar produk</title>
@@ -193,10 +193,22 @@
 <p>
     <img src="background7.jpeg" width="200" height="200" alt="main4"/>
     
+    
 </p>
-<p>celana cream</h1>
+
+<h3>celana cream</h3>
+<p>
+    <img src="background8.jpeg" width="200" height="200" alt="main4"/>
+    
+<p>
+    
+    <h3>celana black</h3>
+
+
 </body>
 </html>
+
+
                 
                 
                 
