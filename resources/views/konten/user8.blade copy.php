@@ -190,19 +190,19 @@
 <h1>gambar size</h1>
 <p>Berikut ini adalah gambar size:</p>
 <p>
-    <img src="background6.jpeg" width="600" height="700" alt="size"/>
+    <img src="background5.jpeg" width="600" height="700" alt="size"/>
     
 </p>
 </body>
 </html>
-                <a href="https://celana2.com"></a>
+                <a href="https://colorlib.com"></a>
             </div>
             <div class="clearfix"></div>
             </footer>
             <!-- /footer content -->
         </div>
         </div>
-
+        
         <!-- jQuery -->
         <script src="../../../vendors/jquery/dist/jquery.min.js"></script>
         <!-- Bootstrap -->
