@@ -175,14 +175,81 @@
 
             <!-- footer content -->
             <footer>
-            <div class="pull-right" >
-                Proyek 1 Kelompok 6 D4 RPL 2B <a href="https://colorlib.com"></a>
-            </div>
-            <div class="clearfix"></div>
-            </footer>
-            <!-- /footer content -->
-        </div>
-        </div>
+
+
+
+
+                
+        
+            
+
+
+    
+    <!DOCTYPE html>
+
+    <html>
+  
+    
+    
+    
+     
+    <marquee>
+
+        <h1>straightface </h1>
+    </marquee>
+
+
+    
+    <head>
+    
+        
+    
+        
+        <style>
+        
+    
+                
+    
+            
+            {
+                @
+                background-color: white;
+                color: crimson;
+                font-family: sans-serif;
+                text-align: center;
+                width: 80%;
+                margin:auto;
+                padding: 70px;
+            }
+    
+            body
+    
+            {
+            
+    
+                background-image: url('background9.jpeg');
+                background-repeat: no-repeat;
+                background-size: cover;
+        
+        
+            }
+        </style>
+    
+
+    
+
+    
+    <a href="https://colorlib.com"></a>
+</div>
+<div class="clearfix"></div>
+</footer>
+<!-- /footer content -->
+</div>
+</div>
+<div class="right_col" role="">
+    </html>
+    
+
 
         <!-- jQuery -->
         <script src="../../../vendors/jquery/dist/jquery.min.js"></script>

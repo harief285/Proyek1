@@ -1,10 +1,10 @@
-
-
 <!DOCTYPE html>
 
 
-<html>
 
+<html>
+    
+<div class="left_col" role="main2">
 
 <head>
 
@@ -14,7 +14,6 @@
     <style>
     
 
-            
 
         
         {
@@ -23,9 +22,9 @@
             color: crimson;
             font-family: sans-serif;
             text-align: center;
-            width:45%;
+            width:35%;
             margin:auto;
-            padding: 35px;
+            padding: 25px;
         }
 
         body
@@ -47,10 +46,9 @@
 
 
 
-
+</div>
 
 
     
 </html>
-
 

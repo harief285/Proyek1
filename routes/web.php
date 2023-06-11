@@ -113,6 +113,25 @@ route::get('/logout', function (){
 });
 
 
+
+route::get('/whatsaap', function (){
+
+    $title="kaos";
+    $slug="whatsaap";
+    $konten= "ini adalah websaya";
+    return view('konten.whatsaap',compact('title', 'slug', 'konten'));
+});
+
+
+route::get('/kaos', function (){
+
+    $title="kaos";
+    $slug="kaos";
+    $konten= "ini adalah websaya";
+    return view('konten.kaos',compact('title', 'slug', 'konten'));
+});
+
+
 route::get('/logout', function (){
 
     $title="user";
