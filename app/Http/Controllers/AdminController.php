@@ -151,4 +151,8 @@ class AdminController extends Controller
         return redirect()->route('kontak')->with('success', 'Data berhasil ditambahkan');
 }
 
+    public function login(){
+        return view('admin.login');
+    }
+
 }

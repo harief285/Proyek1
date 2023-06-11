@@ -2325,6 +2325,15 @@
 
   background: url(straightface.ico);
 }
+.fa-strightfacelogin{
+  position: relative;
+  width: 30px;
+  height: 23px;
+  left: auto;
+  top: auto;
+
+  background: url(logo_straightface3.ico);
+}
 
 /* .fa-strightface:before{
   position: auto;

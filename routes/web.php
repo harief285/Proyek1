@@ -194,3 +194,4 @@ Route::get('/admin/kontak',[AdminController::class,'contact'])->name('kontak');
 Route::get('/admin/inputkontak',[AdminController::class,'inputkontak'])->name('input-kontak');
 Route::POST('/admin/savekontak',[AdminController::class,'savekontak'])->name('save-kontak');
 Route::get('/admin/deletekontak/{no_urut}',[AdminController::class,'deletekontak'])->name('delete-kontak');
+Route::get('/login',[AdminController::class,'login'])->name('login');
