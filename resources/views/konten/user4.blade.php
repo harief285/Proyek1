@@ -126,21 +126,10 @@
             <!-- /top tiles -->
 
             </div>
-            
-                
-
-
-            
-
-
-        
-
-        
-
-
         
 
             <!-- /page content -->
+<<<<<<< HEAD
     
 
 
@@ -226,6 +215,27 @@
                 
                 
                 
+=======
+        <!-- footer content -->
+        <footer>
+            <div class="center-left" >
+
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-4">
+    <title>gambar celana</title>
+</head>
+<body>
+<h1>gambar celana</h1>
+<p>Berikut ini adalah gambar celana:</p>
+<p>
+<p>Chino pants Cream slimfit:</p>
+<p>
+    <img src="celana1.jpg" width="600" height="700" alt="celana"/>
+    
+<
+>>>>>>> e1a0591c5af467f0711f5f789051964915ab5180
                 <a href="https://colorlib.com"></a>
             </div>
             <div class="clearfix"></div>
@@ -233,6 +243,132 @@
             <!-- /footer content -->
         </div>
         </div>
+            
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-4">
+    <title>gambar celana</title>
+</head>
+<body>
+<h1>gambar celana</h1>
+<p>charcoal-camel-cream:</p>
+<p>
+    <img src="celana2.jpg" width="600" height="700" alt="celana"/>
+    
+<
+                <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-4">
+    <title>gambar celana</title>
+</head>
+<body>
+<h1>gambar celana</h1>
+<p>black-khaki-coffee:</p>
+<p>
+    <img src="celana3.jpg" width="600" height="700" alt="celana"/>
+    
+<
+                <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-4">
+    <title>gambar celana</title>
+</head>
+<body>
+<h1>gambar celana</h1>
+<p>chino pendek:</p>
+<p>
+    <img src="celana4.jpg" width="600" height="700" alt="celana"/>
+    
+<
+                <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-4">
+    <title>gambar celana</title>
+</head>
+<body>
+<h1>gambar detail jahitan</h1>
+<p>:</p>
+<p>
+    <img src="celana5.jpg" width="600" height="700" alt="celana"/>
+    
+<
+                <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-4">
+    <title>gambar celana</title>
+</head>
+<body>
+<h1>Loose Denim Blue Black Type</h1>
+<p>:</p>
+<p>
+    <img src="celana6.jpg" width="600" height="700" alt="celana"/>
+    
+<
+                <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-4">
+    <title>gambar celana</title>
+</head>
+<body>
+<h1>Basalt Fatigue in khakis</h1>
+<p>:</p>
+<p>
+    <img src="celana7.jpg" width="600" height="700" alt="celana"/>
+    
+<
+                <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+
 
         <!-- jQuery -->
         <script src="../../../vendors/jquery/dist/jquery.min.js"></script>

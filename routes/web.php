@@ -183,4 +183,14 @@ route::get('/login', function (){
 
 
 
-Route::get('/admin',[AdminController::class,'index']);
+Route::get('/admin',[AdminController::class,'index'])->name('admin');
+Route::get('/admin/tampilbarang',[AdminController::class,'index'])->name('admin-tampilbarang');
+Route::get('/admin/inputbarang',[AdminController::class,'inputbarang'])->name('admin-tambahbarang');
+Route::POST('/admin/savebarang',[AdminController::class,'savebarang'])->name('admin-databarubarang');
+Route::get('/admin/editbarang/{id_barang}',[AdminController::class,'editbarang'])->name('admin-editbarang');
+Route::put('/admin/updatebarang/{id_barang}',[AdminController::class,'updatebarang'])->name('admin-updatebarang');
+Route::get('/admin/deletebarang/{id_barang}',[AdminController::class,'deletebarang'])->name('deletebarang');
+Route::get('/admin/kontak',[AdminController::class,'contact'])->name('kontak');
+Route::get('/admin/inputkontak',[AdminController::class,'inputkontak'])->name('input-kontak');
+Route::POST('/admin/savekontak',[AdminController::class,'savekontak'])->name('save-kontak');
+Route::get('/admin/deletekontak/{no_urut}',[AdminController::class,'deletekontak'])->name('delete-kontak');

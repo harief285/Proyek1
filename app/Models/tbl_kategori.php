@@ -12,6 +12,8 @@ class tbl_kategori extends Model
     use HasFactory;
 
     protected $table='tbl_kategori';
+    protected $primaryKey = 'id_kategori';
+    public $incrementing = false;
 
     protected $fillable = [
         'id_kategori',

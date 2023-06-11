@@ -178,6 +178,7 @@
 
             <!-- footer content -->
             <footer>
+<<<<<<< HEAD
             <div class="" >
 
 
@@ -222,12 +223,276 @@
             </section>
         
                 <a href="https://colorlib.com"></a>
+=======
+            <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gambar baju</title>
+</head>
+<body>
+<h1>Berikut ini adalah gambar baju</h1>
+<p>All Oversized variants:</p>
+<p>
+    <img src="baju1.jpg" width="1100" height="800" alt="size"/>
+    
+</p>
+</body>
+</html>
+            <a href="https://colorlib.com"></a>
+>>>>>>> e1a0591c5af467f0711f5f789051964915ab5180
             </div>
             <div class="clearfix"></div>
             </footer>
             <!-- /footer content -->
         </div>
         </div>
+        <!-- footer content -->
+        <footer>
+            <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gambar baju</title>
+</head>
+<body>
+<h1>gambar baju</h1>
+<p>Forost jacket:</p>
+<p>
+    <img src="baju2.jpg" width="800" height="700" alt="size"/>
+    
+</p>
+</body>
+</html>
+            <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        <!-- footer content -->
+        <footer>
+            <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gambar baju</title>
+</head>
+<body>
+<h1>gambar baju</h1>
+<p>eiden oversized tshirt in white:</p>
+<p>
+    <img src="baju3.jpg" width="800" height="700" alt="size"/>
+    
+</p>
+</body>
+</html>
+            <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        <!-- footer content -->
+        <footer>
+            <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gambar baju</title>
+</head>
+<body>
+<h1>gambar baju</h1>
+<p>New oversized with modern cut:</p>
+<p>
+    <img src="baju4.jpg" width="1100" height="700" alt="size"/>
+    
+</p>
+</body>
+</html>
+            <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        <!-- footer content -->
+        <footer>
+            <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gambar baju</title>
+</head>
+<body>
+<h1>gambar baju</h1>
+<p>Berikut ini adalah gambar baju:</p>
+<p>
+    <img src="baju5.png" width="800" height="700" alt="size"/>
+    
+</p>
+</body>
+</html>
+            <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+</div>
+<!-- footer content -->
+<footer>
+            <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gambar baju</title>
+</head>
+<body>
+<h1>gambar baju</h1>
+<p>forest jacket:</p>
+<p>
+    <img src="baju6.jpg" width="800" height="700" alt="size"/>
+    
+</p>
+</body>
+</html>
+            <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        <!-- footer content -->
+<footer>
+            <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gambar baju</title>
+</head>
+<body>
+<h1>gambar baju</h1>
+<p>winder jacket:</p>
+<p>
+    <img src="baju7.jpg" width="800" height="700" alt="size"/>
+    
+</p>
+</body>
+</html>
+            <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        <!-- footer content -->
+<footer>
+        <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gambar baju</title>
+</head>
+<body>
+<h1></h1>
+<p>jacket in white desert:</p>
+<p>
+    <img src="baju8.a.jpg" width="800" height="800" alt="size"/>
+    
+    
+</p>
+</body>
+</html>
+            <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        
+            <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        <!-- footer content -->
+<footer>
+        <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gambar baju</title>
+</head>
+<body>
+<h1></h1>
+<p>jacket in white desert:</p>
+<p>
+    <img src="baju9.jpg" width="700" height="800" alt="size"/>
+    
+    
+</p>
+</body>
+</html>
+            <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        
+            <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        <!-- footer content -->
+<footer>
+        <!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gambar baju</title>
+</head>
+<body>
+<h1></h1>
+<p>jacket in white desert:</p>
+<p>
+    <img src="baju10.jpg" width="700" height="800" alt="size"/>
+    
+    
+</p>
+</body>
+</html>
+            <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        
+            <a href="https://colorlib.com"></a>
+            </div>
+            <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+        </div>
+        
+
+
 
         <!-- jQuery -->
         <script src="../../../vendors/jquery/dist/jquery.min.js"></script>
