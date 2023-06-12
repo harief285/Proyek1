@@ -26,6 +26,15 @@ use App\Http\Controllers\AdminController;
 //     return view('konten.admin',compact('title', 'slug', 'konten'));
 // });
 
+
+route::get('/', function (){
+
+    $title="user";
+    $slug="home";
+    $konten= "ini adalah websaya";
+    return view('konten.user',compact('title', 'slug', 'konten'));
+});
+
 route::get('/user', function (){
 
     $title="user";
@@ -182,16 +191,23 @@ route::get('/login', function (){
 });
 
 
+Route::middleware(['auth'])->group(function () {
+    Route::get('/admin', [AdminController::class, 'index'])->middleware('auth')->name('admin');
+    Route::get('/admin/tampilbarang',[AdminController::class,'index'])->name('admin-tampilbarang');
+    Route::get('/admin/inputbarang',[AdminController::class,'inputbarang'])->name('admin-tambahbarang');
+    Route::POST('/admin/savebarang',[AdminController::class,'savebarang'])->name('admin-databarubarang');
+    Route::get('/admin/editbarang/{id_barang}',[AdminController::class,'editbarang'])->name('admin-editbarang');
+    Route::put('/admin/updatebarang/{id_barang}',[AdminController::class,'updatebarang'])->name('admin-updatebarang');
+    Route::get('/admin/deletebarang/{id_barang}',[AdminController::class,'deletebarang'])->name('deletebarang');
+    Route::get('/admin/kontak',[AdminController::class,'contact'])->name('kontak');
+    Route::get('/admin/inputkontak',[AdminController::class,'inputkontak'])->name('input-kontak');
+    Route::POST('/admin/savekontak',[AdminController::class,'savekontak'])->name('save-kontak');
+    Route::get('/admin/deletekontak/{no_urut}',[AdminController::class,'deletekontak'])->name('delete-kontak');
+    Route::get('/logout', [AdminController::class,'logout'])->name('logout');
+});
 
-Route::get('/admin',[AdminController::class,'index'])->name('admin');
-Route::get('/admin/tampilbarang',[AdminController::class,'index'])->name('admin-tampilbarang');
-Route::get('/admin/inputbarang',[AdminController::class,'inputbarang'])->name('admin-tambahbarang');
-Route::POST('/admin/savebarang',[AdminController::class,'savebarang'])->name('admin-databarubarang');
-Route::get('/admin/editbarang/{id_barang}',[AdminController::class,'editbarang'])->name('admin-editbarang');
-Route::put('/admin/updatebarang/{id_barang}',[AdminController::class,'updatebarang'])->name('admin-updatebarang');
-Route::get('/admin/deletebarang/{id_barang}',[AdminController::class,'deletebarang'])->name('deletebarang');
-Route::get('/admin/kontak',[AdminController::class,'contact'])->name('kontak');
-Route::get('/admin/inputkontak',[AdminController::class,'inputkontak'])->name('input-kontak');
-Route::POST('/admin/savekontak',[AdminController::class,'savekontak'])->name('save-kontak');
-Route::get('/admin/deletekontak/{no_urut}',[AdminController::class,'deletekontak'])->name('delete-kontak');
-Route::get('/login',[AdminController::class,'login'])->name('login');
+Route::middleware(['guest'])->group(function () {
+    Route::get('/login',[AdminController::class,'loginform'])->name('login-form');
+    Route::POST('/login',[AdminController::class,'login'])->name('login');
+});
+

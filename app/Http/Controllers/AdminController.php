@@ -7,6 +7,9 @@ use App\Models\tbl_barang;
 use App\Models\tbl_kategori;
 use App\Models\tbl_contact;
 use Illuminate\Support\Facades\File;
+use App\Models\tbl_user;
+use Illuminate\Support\Facades\Auth;
+
 
 
 
@@ -151,8 +154,34 @@ class AdminController extends Controller
         return redirect()->route('kontak')->with('success', 'Data berhasil ditambahkan');
 }
 
-    public function login(){
-        return view('admin.login');
+public function loginform()
+{
+    $error = session('error');
+    return view('admin.login', compact('error'));
+}
+    
+    public function login(Request $request)
+    {
+        $request->validate([
+            'id_user' => 'required',
+            'password' => 'required',
+        ]);
+        
+        $id_user = $request->input('id_user');
+        $password = $request->input('password');
+        
+        if (Auth::attempt(['id_user' => $id_user, 'password' => $password])) {
+            // Autentikasi berhasil
+            return redirect()->route('admin');
+        } else {
+            // Autentikasi gagal
+            return redirect()->route('login-form')->with('error', 'username Pengguna atau kata sandi salah.');
+        }
+    }
+    public function logout()
+    {
+        Auth::logout();
+        return redirect()->route('login-form');
     }
 
 }

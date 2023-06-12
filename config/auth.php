@@ -1,5 +1,5 @@
 <?php
-
+use App\Models\tbl_user;
 return [
 
     /*
@@ -38,7 +38,12 @@ return [
     'guards' => [
         'web' => [
             'driver' => 'session',
-            'provider' => 'users',
+            'provider' => 'tbl_user', // Gunakan provider tbl_user untuk guard web
+        ],
+    
+        'api' => [
+            'driver' => 'token',
+            'provider' => 'tbl_user', // Gunakan provider tbl_user untuk guard api
         ],
     ],
 
@@ -62,13 +67,14 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\Models\User::class,
+            'model' => App\Models\tbl_user::class,
         ],
-
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+    
+        // Provider pengguna tambahan
+        'tbl_user' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\tbl_user::class,
+        ],
     ],
 
     /*
