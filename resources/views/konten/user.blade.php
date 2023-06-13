@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="images/favicon.ico" type="image/ico" />
 
-        <title>Admin Panel</title>
+        <title>straightface</title>
 
         <!-- Bootstrap -->
         <link href="{{ asset('/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -44,17 +44,6 @@
 
                 <!-- menu profile quick info -->
                 <div class="profile clearfix">
-                <div class="profile_pic">
-                    <img src="images/img.jpg" alt="..." class="img-circle profile_img">
-                </div>
-                <div class="profile_info">
-
-
-                    <span>Welcome</span>
-                    <h2>straight face </h2>
-
-
-                </div>
 
                     @yield('konten')
 

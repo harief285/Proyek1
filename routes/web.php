@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\mahasiswa3Controller;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -57,19 +58,8 @@ route::get('/visimisi', function (){
     $konten= "ini adalah websaya";
     return view('konten.visimisi',compact('title', 'slug', 'konten'));
 });
-route::get('/celana', function (){
-    $title="user";
-    $slug="celana";
-    $konten= "ini adalah websaya";
-    return view('konten.celana',compact('title', 'slug', 'konten'));
-});
+Route::get('/celana',[UserController::class,'celana']);
 
-route::get('/kaos', function (){
-    $title="user";
-    $slug="kaos";
-    $konten= "ini adalah websaya";
-    return view('konten.kaos',compact('title', 'slug', 'konten'));
-});
 
 
 route::get('/whatsaap', function (){
@@ -132,13 +122,7 @@ route::get('/whatsaap', function (){
 });
 
 
-route::get('/kaos', function (){
-
-    $title="kaos";
-    $slug="kaos";
-    $konten= "ini adalah websaya";
-    return view('konten.kaos',compact('title', 'slug', 'konten'));
-});
+Route::get('/kaos',[UserController::class,'kaos']);
 
 
 route::get('/logout', function (){

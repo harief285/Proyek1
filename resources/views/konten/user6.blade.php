@@ -47,17 +47,7 @@
 
                 <!-- menu profile quick info -->
                 <div class="profile clearfix">
-                <div class="profile_pic">
-                    <img src="images/img.jpg" alt="..." class="img-circle profile_img">
-                </div>
-                <div class="profile_info">
-
-
-                    <span>Welcome</span>
-                    <h2>straight face </h2>
-
-
-                </div>
+                
 
                     @yield('konten')
 
@@ -101,7 +91,7 @@
                 <a data-toggle="tooltip" data-placement="top" title="Lock">
                     <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
                 </a>
-                <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                <a data-toggle="tooltip" data-placement="top" title="Logout" href="{{ route('logout') }}">
                     <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
                 </a>
                 </div>

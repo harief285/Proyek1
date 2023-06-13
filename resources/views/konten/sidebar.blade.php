@@ -34,20 +34,6 @@
                         
                             </ul>
                         </li>
-
-                        <li><a><i class="fa fa-sign-out" aria-hidden="true"></i> logout <span class="fa fa-chevron-down"></span></a>
-                            <ul class="nav child_menu">
-                            <li><a href="/keluar">keluar</a></li>
-                        
-                        
-                            </ul>
-                        </li>
-                    
-                        
-                    
-                    
-                    
-                
                     </div>
                 </div>
                 <!-- /sidebar menu -->

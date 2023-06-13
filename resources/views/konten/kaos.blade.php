@@ -7,25 +7,14 @@
             </section>
             <section id="produk">
                 <h2>Produk</h2>
+                @foreach($barang as $item)
                 <div class="produk">
-                    <img src="background11.jpeg"width="200" height="200" alt="kaos"><a href="{{asset('background11.jpeg ')}}">
+                    <img src="{{ asset('fotobarang/'.$item->alamat_gambar) }}"width="200" height="200" alt="kaos"><a href="{{ asset('fotobarang/'.$item->alamat_gambar) }}">
                     
-                    <h3>kaos</h3>
-                    <p>Rp 200.000</p>
+                    <h3>{{ $item->nama_barang }}</h3>
+                    <p>Rp {{ $item->harga_barang }}</p>
                     <a href="whatsaap">Pesan Sekarang</a>
                 </div>
-                <div class="produk">
-                    <img src="background12.jpeg" width="200" height="200" alt="kaos"><a href="{{asset('background12.jpeg ')}}">
-                    <h3>kaos</h3>
-                    <p>Rp 300.000</p>
-                    <a href="whatsaap">Pesan Sekarang</a>
-                </div>
-                <div class="produk">
-                    <img src="background16.jpeg" width="200" height="200" alt="kaos">
-                    <a href="{{asset('background16.jpeg ')}}">
-                    <h3>kaos</h3>
-                    <p>Rp 400.000</p>
-                    <a href="whatsaap">Pesan Sekarang</a>
-                </div>
+                @endforeach
             </section>
             @endsection
