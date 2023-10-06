@@ -1,12 +1,7 @@
 @extends('layouts.mainuser')
 @section('content')
-<head>
-    <title>Toko Kami - Jual Berbagai Macam Produk Berkualitas</title>
-</head>
-<body>
     <header>
         <h1>Toko Kami</h1>
-        
     </header>
     <main>
         <section id="beranda">

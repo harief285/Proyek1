@@ -28,71 +28,7 @@ use App\Http\Controllers\UserController;
 // });
 
 
-route::get('/', function (){
 
-    $title="user";
-    $slug="home";
-    $konten= "ini adalah websaya";
-    return view('konten.user',compact('title', 'slug', 'konten'));
-});
-
-route::get('/user', function (){
-
-    $title="user";
-    $slug="home";
-    $konten= "ini adalah websaya";
-    return view('konten.user',compact('title', 'slug', 'konten'));
-});
-
-route::get('/latarbelakang', function (){
-    $title="user";
-    $slug="latarbelakang";
-    $konten= "ini adalah websaya";
-    return view('konten.latarbelakang',compact('title', 'slug', 'konten'));
-});
-
-
-route::get('/visimisi', function (){
-    $title="user";
-    $slug="visimisi";
-    $konten= "ini adalah websaya";
-    return view('konten.visimisi',compact('title', 'slug', 'konten'));
-});
-Route::get('/celana',[UserController::class,'celana']);
-
-
-
-route::get('/whatsaap', function (){
-    $title="user";
-    $slug="whatsaap";
-    $konten= "ini adalah websaya";
-    return view('konten.whatsaap',compact('title', 'slug', 'konten'));
-});
-
-
-route::get('/instragram', function (){
-    $title="user";
-    $slug="instragram";
-    $konten= "ini adalah websaya";
-    return view('konten.instragram',compact('title', 'slug', 'konten'));
-});
-
-
-route::get('/size', function (){
-    $title="user";
-    $slug="size";
-    $konten= "ini adalah websaya";
-    return view('konten.size',compact('title', 'slug', 'konten'));
-});
-
-
-route::get('/home', function (){
-
-    $title="home";
-    $slug="home";
-    $konten= "ini adalah websaya";
-    return view('konten.home',compact('title', 'slug', 'konten'));
-});
 
 
 
@@ -193,5 +129,71 @@ Route::middleware(['auth'])->group(function () {
 Route::middleware(['guest'])->group(function () {
     Route::get('/login',[AdminController::class,'loginform'])->name('login-form');
     Route::POST('/login',[AdminController::class,'login'])->name('login');
+    Route::POST('/register',[AdminController::class,'regist'])->name('regi');
+    Route::get('/register-form',[AdminController::class,'register'])->name('register');
+
+
+    route::get('/', function (){
+        return view('konten.user');
+    });
+    
+    route::get('/user', function (){
+    
+        $title="user";
+        $slug="home";
+        $konten= "ini adalah websaya";
+        return view('konten.user',compact('title', 'slug', 'konten'));
+    });
+    
+    route::get('/latarbelakang', function (){
+        $title="user";
+        $slug="latarbelakang";
+        $konten= "ini adalah websaya";
+        return view('konten.latarbelakang',compact('title', 'slug', 'konten'));
+    });
+    
+    
+    route::get('/visimisi', function (){
+        $title="user";
+        $slug="visimisi";
+        $konten= "ini adalah websaya";
+        return view('konten.visimisi',compact('title', 'slug', 'konten'));
+    });
+    Route::get('/celana',[UserController::class,'celana']);
+    
+    
+    
+    route::get('/whatsaap', function (){
+        $title="user";
+        $slug="whatsaap";
+        $konten= "ini adalah websaya";
+        return view('konten.whatsaap',compact('title', 'slug', 'konten'));
+    });
+    
+    
+    route::get('/instragram', function (){
+        $title="user";
+        $slug="instragram";
+        $konten= "ini adalah websaya";
+        return view('konten.instragram',compact('title', 'slug', 'konten'));
+    });
+    
+    
+    route::get('/size', function (){
+        $title="user";
+        $slug="size";
+        $konten= "ini adalah websaya";
+        return view('konten.size',compact('title', 'slug', 'konten'));
+    });
+    
+    
+    route::get('/home', function (){
+    
+        $title="home";
+        $slug="home";
+        $konten= "ini adalah websaya";
+        return view('konten.home',compact('title', 'slug', 'konten'));
+    });
 });
+
 

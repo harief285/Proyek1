@@ -170,7 +170,7 @@ public function loginform()
         $id_user = $request->input('id_user');
         $password = $request->input('password');
         
-        if (Auth::attempt(['id_user' => $id_user, 'password' => $password])) {
+        if (Auth::attempt(['id_user' => $id_user, 'password' => ($password)])) {
             // Autentikasi berhasil
             return redirect()->route('admin');
         } else {
@@ -182,6 +182,26 @@ public function loginform()
     {
         Auth::logout();
         return redirect()->route('login-form');
+    }
+
+    public function register(){
+        return view('admin.register');
+    }
+
+    public function regist(Request $request){
+        $request->validate([
+            'id_user' => 'required',
+            'password' => 'required',
+            'jabatan' => 'required',
+        ]);
+
+        tbl_user::create([
+            'id_user' => $request->input('id_user'),
+            'password' => bcrypt($request->input('password')),
+            'jabatan' => $request->input('jabatan'),
+        ]);
+
+        return redirect()->route('login-form')->with('success', 'Data berhasil ditambahkan');
     }
 
 }

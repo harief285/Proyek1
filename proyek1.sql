@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 07 Jun 2023 pada 17.07
+-- Waktu pembuatan: 06 Okt 2023 pada 13.15
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.1.17
 
@@ -108,6 +108,13 @@ CREATE TABLE `tbl_barang` (
   `alamat_gambar` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
+--
+-- Dumping data untuk tabel `tbl_barang`
+--
+
+INSERT INTO `tbl_barang` (`id_barang`, `id_user`, `nama_barang`, `harga_barang`, `jumlah_barang`, `id_kategori`, `ukuran`, `deskripsi`, `alamat_gambar`) VALUES
+('B001', 'admin', 'Celana Jens', '200000', 5, '2', 'xl', 'Bahan tebal terbuat dari jens', '650fe254b14d9.jpeg');
+
 -- --------------------------------------------------------
 
 --
@@ -166,7 +173,7 @@ INSERT INTO `tbl_kategori` (`id_kategori`, `kategori`) VALUES
 
 CREATE TABLE `tbl_user` (
   `id_user` varchar(15) NOT NULL,
-  `password` varchar(15) NOT NULL,
+  `password` varchar(100) NOT NULL,
   `jabatan` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
@@ -175,8 +182,9 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`id_user`, `password`, `jabatan`) VALUES
-('admin', 'admin', 'admin'),
-('user', 'user', 'user');
+('admin', '$2y$10$pBKqxQPc9BzpTMP02XUbx.MGQxM04UXdgJSJe88xvTaCXjmUFh8E.', 'admin'),
+('test', '$2y$10$FkTH7aIYBZuPKJpi.8hbE.hGJzaRwBXKuNJwYHIW2lzO4ycKppzjK', 'tester'),
+('user', '$2y$10$SpjX2OOcgZicGbZYDmAovuQqNli9mwAU8Mmc5lZcZ602QRDVDBapu', 'user');
 
 -- --------------------------------------------------------
 

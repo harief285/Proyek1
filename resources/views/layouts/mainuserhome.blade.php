@@ -29,6 +29,24 @@
 
         <!-- Custom Theme Style -->
         <link href="{{ asset('build/css/custom.min.css') }}" rel="stylesheet">
+        <style>
+            {
+                @
+                background-color: white;
+                color: crimson;
+                font-family: sans-serif;
+                text-align: center;
+                width: 80%;
+                margin:auto;
+                padding: 70px;
+            }
+            #main223
+            {
+                background-image: url('background9.jpeg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
     </head>
 
     <body class="nav-md">
@@ -45,12 +63,10 @@
                 @include('layouts.navuser')
 
             <!-- page content -->
-            <div class="right_col" role="main">
             
             @yield('content')
             <!-- top tiles -->
             <!-- /top tiles -->
-            </div>
             <!-- /page content -->
 
             <!-- footer content -->
